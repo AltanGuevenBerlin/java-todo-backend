@@ -1,13 +1,24 @@
 body {
   font-faimily: sans-serif;
 }
+.page {
+  display: grid;
+  grid-template-columns: repeat (3, 1fr);
+  grid-gap: 10px;
+
+}
+
+h1 {
+  grid-column: 1 / -1;
+  text-align: center;
+
+}
 
 .todo-card {
-  border: solid 1px white;
+  border: solid 10px white;
   border-radius: 5px;
   height: 50px;
   width: 100px;
   margin-bottom: 20px;
   padding: 10px;
-
 }
